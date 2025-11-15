@@ -61,7 +61,7 @@
   &kp Q        &kp W         &kp E         &kp R        &kp T                          &kp Y  &kp U            &kp I         &kp O         &kp P
   &hml LGUI A  &hml LCTRL S  &hml LSHFT D  &hml LALT F  &kp G                          &kp H  &hmr LEFT_ALT J  &hmr RSHFT K  &hmr RCTRL L  &hmr RGUI SEMICOLON
   &kp Z        &kp X         &kp C         &kp V        &kp B                          &kp N  &kp M            &kp COMMA     &kp DOT       &kp SLASH
-                                           &kp TAB      &mo 1  &kp SPACE    &kp ENTER  &mo 2  &kp TAB
+                                           &kp TAB      &mo 1  &kp SPACE    &kp ENTER  &mo 2  &kp DELETE
             >;
 
             display-name = "Base";
@@ -80,10 +80,10 @@
 
         sym {
             bindings = <
-  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                           &kp CARET  &kp LBKT      &kp UNDER  &kp RBKT           &none
-  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                           &kp CARET  &kp LEFT_ALT  &kp RSHFT  &kp RIGHT_CONTROL  &kp RGUI
-  &kp MINUS     &kp EQUAL     &kp PIPE      &kp GRAVE     &none                                  &none      &kp PRCNT     &kp TILDE  &kp DOLLAR         &kp AMPERSAND
-                                            &trans        &mo 3         &kp BACKSPACE    &trans  &trans     &trans
+  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp NUMBER_5                           &kp CARET    &kp LBKT       &kp UNDER  &kp LEFT_BRACKET   &kp RIGHT_BRACKET
+  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp NUMBER_0                           &kp CARET    &kp LEFT_ALT   &kp RSHFT  &kp RIGHT_CONTROL  &kp RGUI
+  &kp MINUS     &kp EQUAL     &kp BACKSLASH  &kp GRAVE     &none                                  &kp PERCENT  &kp AMPERSAND  &kp TILDE  &kp DOLLAR         &kp BACKSLASH
+                                             &trans        &mo 3         &kp BACKSPACE    &trans  &trans       &trans
             >;
 
             display-name = "Symbols";
@@ -102,20 +102,20 @@
 
         gay {
             bindings = <
-  &kp TAB    &kp Q  &kp W  &kp E   &kp R                    &kp T   &kp Y   &kp U  &kp I      &kp O
-  &kp LSHFT  &kp A  &kp S  &kp D   &kp F                    &kp G   &kp H   &kp J  &kp K      &kp L
-  &kp LCTRL  &kp Z  &kp X  &kp C   &kp V                    &kp B   &kp N   &kp M  &kp COMMA  &kp DOT
-                           &trans  &mo 5  &trans    &trans  &trans  &trans
+  &kp TAB    &kp Q  &kp W  &kp E         &kp R                    &kp T   &kp Y   &kp U  &kp I      &kp O
+  &kp LSHFT  &kp A  &kp S  &kp D         &kp F                    &kp G   &kp H   &kp J  &kp K      &kp L
+  &kp LCTRL  &kp Z  &kp X  &kp C         &kp V                    &kp B   &kp N   &kp M  &kp COMMA  &kp DOT
+                           &kp LEFT_ALT  &mo 5  &trans    &trans  &trans  &trans
             >;
         };
 
         gay_num {
             display-name = "Navigation";
             bindings = <
-  &kp ESC   &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4                    &kp N6          &kp N7          &kp N8        &kp N9           &kp N0
-  &kp LGUI  &kp LEFT_CONTROL  &kp LSHFT     &kp LEFT_ALT  &kp G                           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp APOS
-  &kp ESC   &kp B             &kp N         &kp M         &kp ENTER                       &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &kp PRINTSCREEN
-                                            &trans        &trans        &trans    &trans  &mo 3           &trans
+  &kp ESC        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4                    &kp N6          &kp N7          &kp N8        &kp N9           &kp N0
+  &kp LEFT_ALT   &kp NUMBER_5  &kp NUMBER_6  &kp T         &kp G                           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp APOS
+  &kp LEFT_META  &kp B         &kp H         &kp ENTER     &kp M                           &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &kp PRINTSCREEN
+                                             &trans        &trans        &trans    &trans  &mo 3           &trans
             >;
         };
     };
