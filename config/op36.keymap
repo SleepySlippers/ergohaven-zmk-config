@@ -91,13 +91,32 @@
 
         adj {
             bindings = <
-  &bootloader  &kp F1        &kp F2         &kp F3         &kp F4                     &bt BT_SEL 0  &bt BT_SEL 1         &bt BT_SEL 2       &bt BT_SEL 3        &bt BT_CLR
-  &kp LGUI     &hml LALT F5  &hml LSHFT F6  &hml LCTRL F7  &kp F8                     &out OUT_BLE  &hmr RCTRL C_VOL_DN  &hmr RSHFT C_MUTE  &hmr LALT C_VOL_UP  &kp RGUI
-  &none        &kp F9        &kp F10        &kp F11        &kp F12                    &out OUT_USB  &kp C_PREV           &kp C_PP           &kp C_NEXT          &studio_unlock
-                                            &trans         &trans   &trans    &trans  &trans        &trans
+  &kp F1  &kp F2   &kp F3   &kp F4   &bootloader                    &bt BT_SEL 0  &bt BT_SEL 1         &bt BT_SEL 2       &bt BT_SEL 3        &bt BT_CLR
+  &kp F5  &kp F6   &kp F7   &kp F8   &to 0                          &out OUT_BLE  &hmr RCTRL C_VOL_DN  &hmr RSHFT C_MUTE  &hmr LALT C_VOL_UP  &kp RGUI
+  &kp F9  &kp F10  &kp F11  &kp F12  &to 4                          &out OUT_USB  &kp C_PREV           &kp C_PP           &kp C_NEXT          &studio_unlock
+                            &trans   &trans       &trans    &trans  &trans        &trans
             >;
 
             display-name = "Adjust";
+        };
+
+        gay {
+            bindings = <
+  &kp TAB    &kp Q  &kp W  &kp E   &kp R                    &kp T   &kp Y   &kp U  &kp I      &kp O
+  &kp LSHFT  &kp A  &kp S  &kp D   &kp F                    &kp G   &kp H   &kp J  &kp K      &kp L
+  &kp LCTRL  &kp Z  &kp X  &kp C   &kp V                    &kp B   &kp N   &kp M  &kp COMMA  &kp DOT
+                           &trans  &mo 5  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        gay_num {
+            display-name = "Navigation";
+            bindings = <
+  &kp ESC   &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4                    &kp N6          &kp N7          &kp N8        &kp N9           &kp N0
+  &kp LGUI  &kp LEFT_CONTROL  &kp LSHFT     &kp LEFT_ALT  &kp G                           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp APOS
+  &kp ESC   &kp B             &kp N         &kp M         &kp ENTER                       &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &kp PRINTSCREEN
+                                            &trans        &trans        &trans    &trans  &mo 3           &trans
+            >;
         };
     };
 };
