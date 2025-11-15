@@ -69,10 +69,10 @@
 
         nav {
             bindings = <
-  &kp N1         &kp N2    &kp N3     &kp N4     &kp N5                        &kp N6          &kp N7          &kp N8        &kp N9           &kp N0
-  &hml LGUI ESC  &kp LALT  &kp LSHFT  &kp LCTRL  &kp ENTER                     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp APOS
-  &none          &kp HOME  &kp INS    &kp END    &kp DELETE                    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &kp PRINTSCREEN
-                                      &trans     &trans      &trans    &trans  &mo 3           &trans
+  &kp N1    &kp N2            &kp N3     &kp N4        &kp N5                        &kp N6          &kp N7          &kp N8        &kp N9           &kp N0
+  &kp LGUI  &kp LEFT_CONTROL  &kp LSHFT  &kp LEFT_ALT  &kp ENTER                     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp APOS
+  &kp ESC   &kp HOME          &kp INS    &kp END       &kp DELETE                    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &kp PRINTSCREEN
+                                         &trans        &trans      &trans    &trans  &mo 3           &trans
             >;
 
             display-name = "Navigation";
@@ -80,9 +80,9 @@
 
         sym {
             bindings = <
-  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                           &kp CARET  &kp LBKT         &kp UNDER        &kp RBKT        &none
-  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                           &kp PRCNT  &hmr RCTRL LBRC  &hmr RSHFT SEMI  &hmr LALT RBRC  &hmr RGUI EXCL
-  &kp MINUS     &kp EQUAL     &kp COLON     &kp APOS      &none                                  &none      &kp PIPE         &kp TILDE        &kp AMPS        &kp DLLR
+  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                           &kp CARET  &kp LBKT      &kp UNDER  &kp RBKT           &none
+  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                           &kp CARET  &kp LEFT_ALT  &kp RSHFT  &kp RIGHT_CONTROL  &kp RGUI
+  &kp MINUS     &kp EQUAL     &kp PIPE      &kp GRAVE     &none                                  &none      &kp PRCNT     &kp TILDE  &kp DOLLAR         &kp AMPERSAND
                                             &trans        &mo 3         &kp BACKSPACE    &trans  &trans     &trans
             >;
 
