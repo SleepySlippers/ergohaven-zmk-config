@@ -102,10 +102,10 @@
 
         gay {
             bindings = <
-  &kp TAB         &kp Q  &kp W  &kp E         &kp R                    &kp T   &kp Y     &kp UP_ARROW    &kp I            &kp O
-  &kp LCTRL       &kp A  &kp S  &kp D         &kp F                    &kp G   &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp L
-  &kp LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp V                    &kp B   &kp N     &kp M           &kp COMMA        &kp DOT
-                                &kp LEFT_ALT  &mo 5  &trans    &trans  &trans  &trans
+  &kp TAB         &kp Q  &kp W  &kp E         &kp R                       &kp T  &kp Y     &kp UP_ARROW    &kp I            &kp O
+  &kp LCTRL       &kp A  &kp S  &kp D         &kp F                       &kp G  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp L
+  &kp LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp V                       &kp B  &kp N     &kp M           &kp COMMA        &kp DOT
+                                &kp LEFT_ALT  &mo 5  &kp SPACE    &trans  &mo 3  &trans
             >;
         };
 
