@@ -71,7 +71,7 @@
             bindings = <
   &kp N1    &kp N2            &kp N3     &kp N4        &kp N5                        &kp N6          &kp N7          &kp N8        &kp N9           &kp N0
   &kp LGUI  &kp LEFT_CONTROL  &kp LSHFT  &kp LEFT_ALT  &kp ENTER                     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp APOS
-  &kp ESC   &kp HOME          &kp INS    &kp END       &kp DELETE                    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &kp PRINTSCREEN
+  &kp ESC   &kp HOME          &kp INS    &kp END       &kp DELETE                    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &kp BACKSLASH
                                          &trans        &trans      &trans    &trans  &mo 3           &trans
             >;
 
@@ -80,10 +80,10 @@
 
         sym {
             bindings = <
-  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp NUMBER_5                           &kp CARET    &kp LBKT       &kp UNDER  &kp LEFT_BRACKET   &kp RIGHT_BRACKET
-  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp NUMBER_0                           &kp CARET    &kp LEFT_ALT   &kp RSHFT  &kp RIGHT_CONTROL  &kp RGUI
-  &kp MINUS     &kp EQUAL     &kp BACKSLASH  &kp GRAVE     &none                                  &kp PERCENT  &kp AMPERSAND  &kp TILDE  &kp DOLLAR         &kp BACKSLASH
-                                             &trans        &mo 3         &kp BACKSPACE    &trans  &trans       &trans
+  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                           &kp CARET    &kp AMPERSAND  &kp STAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                           &kp CARET    &kp LEFT_ALT   &kp RSHFT  &kp RIGHT_CONTROL     &kp RGUI
+  &kp MINUS     &kp EQUAL     &kp LBKT      &kp RBKT      &kp GRAVE                              &kp PERCENT  &kp AMPERSAND  &kp TILDE  &kp DOLLAR            &kp PRINTSCREEN
+                                            &trans        &mo 3         &kp BACKSPACE    &trans  &trans       &trans
             >;
 
             display-name = "Symbols";
